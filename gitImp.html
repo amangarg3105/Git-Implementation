@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Git Implementation</title>
+        <script src="GitImpl.js"></script>
+    </head>
+    <body>
+        <h1>Git Implementation</h1>
+        <input type="text" placeholder="Commit message" id="commitMsg" required>
+        <button onclick="commitbtn(commitMsg)">Commit</button>
+        <button onclick="checkoutbtn(commitMsg)">Checkout</button>
+        <button onclick="revertbtn(commitMsg)">Revert</button>
+        <button onclick="mergebtn(commitMsg)">Merge</button>
+        <div id="specialMessage"></div>
+        <div id="display"></div>
+        <!-- <button onclick="logbtn()">Log</button> -->
+    </body>
+</html>
